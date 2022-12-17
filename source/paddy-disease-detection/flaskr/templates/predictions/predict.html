@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Predict Paddy Disease{% endblock %}</h1>
+  <a class="action" href="{{ url_for('predictions.allitems') }}">All Predictions</a>
+{% endblock %}
+
+
+
+{% block content %}
+  <form method="post" enctype = "multipart/form-data">
+    <label for="filename">FileName</label>
+    <input name="filename" 
+    id="filename" 
+    value="{{ request.form['filename'] }}" 
+    type= "file"  required>
+ 
+    <input type="submit" value="Predict">
+  </form>
+{% endblock %}

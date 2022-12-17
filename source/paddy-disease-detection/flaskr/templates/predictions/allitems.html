@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}All Predictions{% endblock %}</h1>
+  
+    <a class="action" href="{{ url_for('predictions.predict') }}">Predict</a>
+    <a class="action" href="{{ url_for('predictions.allitems') }}">
+    All Predictions</a>
+  
+{% endblock %}
+
+
+{% block content %}
+
+<p>
+  All Predictions in Percentages
+  <form method="post" >
+    <label for="filename">FileName</label>
+    <input name="filename" 
+    id="filename" 
+    value="{{ request.form['filename'] }}" 
+    required>
+  
+    <input type="submit" value="Filter">
+  </form>
+</p>
+
+<hr/>
+<table>
+  <thead>
+  <tr>
+  <th>filename</th>
+  <th>dead heart</th>
+  <th>bacterial pinacle blight</th>
+  <th>blast</th>
+  <th>tungro</th>
+  <th>downy mildew</th>
+  <th>normal</th>
+  <th>bacterial leaf blight</th>
+  <th>bacterial leaf streak</th>
+  <th>hispa</th>
+  <th>brown spot</th>
+  </tr>
+  </thead>
+
+<tbody>
+{% for prediction in allitems %}
+   
+    <tr>
+      <td>{{ prediction["filename"]}}</td> 
+      <td>{{ prediction["dead_heart"]}}</td> 
+      <td>{{ prediction["bacterial_pinacle_blight"]}}</td>
+      <td>{{ prediction["blast"]}}</td>
+      <td>{{ prediction["tungro"]}}</td>
+      <td>{{ prediction["downy_mildew"]}}</td> 
+      <td>{{ prediction["normal"]}}</td>
+      <td>{{ prediction["bacterial_leaf_blight"]}}</td>
+      <td>{{ prediction["bacterial_leaf_streak"]}}</td>
+      <td>{{ prediction["hispa"]}}</td> 
+      <td>{{ prediction["brown_spot"]}}</td> 
+    </tr>
+      
+{% endfor %}
+</tbody>
+</table>
+{% endblock %}

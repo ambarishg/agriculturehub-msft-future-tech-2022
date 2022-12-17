@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}All Predictions{% endblock %}</h1>
+  
+    <a class="action" href="{{ url_for('predictions.predict') }}">Predict</a>
+    <a class="action" href="{{ url_for('predictions.allitems') }}">
+    All Predictions</a>
+  
+{% endblock %}
+
+
+{% block content %}
+
+<p>
+  All Predictions in Percentages
+  <form method="post" >
+    <label for="filename">FileName</label>
+    <input name="filename" 
+    id="filename" 
+    value="{{ request.form['filename'] }}" 
+    required>
+  
+    <input type="submit" value="Filter">
+  </form>
+</p>
+<table>
+    <thead>
+    <tr>
+    <th>filename</th>
+    <th>cbb</th>
+    <th>cbsd</th>
+    <th>cgm</th>
+    <th>cmd</th>
+    <th>healthy</th>
+    </tr>
+    </thead>
+    
+<tbody> 
+{% for prediction in allitems %}
+     
+      <tr>
+        <td>{{ prediction["filename"]}} </td> 
+        <td>{{ prediction["cbb"]}} </td> 
+        <td>{{ prediction["cbsd"]}} </td>
+        <td>{{ prediction["cgm"]}} </td>
+        <td>{{ prediction["cmd"]}} </td>
+        <td>{{ prediction["healthy"]}}</td> 
+      </tr>
+         
+{% endfor %}
+</tbody> 
+</table>
+{% endblock %}

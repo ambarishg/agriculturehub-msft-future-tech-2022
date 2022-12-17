@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Predictions{% endblock %}</h1>
+    <a class="action" href="{{ url_for('predictions.predict') }}">Predict</a>
+    <a class="action" href="{{ url_for('predictions.allitems') }}">All Predictions</a>
+{% endblock %}
+
+{% block content %}
+<header>
+  <p class="body">Prediction for {{ filename }}</p>
+</header>
+
+<p class="body">
+<img src= {{fullfilename}} />
+</p>
+
+{% for prediction in predictionresults %}
+    <article class="post">
+      
+      <p class="body">
+        {{ prediction.tag_name }} : {{ prediction.probability }}
+      </p>
+    </article>
+{% endfor %}
+
+{% endblock %}

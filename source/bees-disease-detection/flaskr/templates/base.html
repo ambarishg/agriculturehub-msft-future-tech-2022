@@ -1,0 +1,20 @@
+<!doctype html>
+<title>{% block title %}{% endblock %} - Bees Disease Detection</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<nav>
+  <h1>Bee Disease </h1>
+  <a align="right" 
+href="https://polite-pond-0bb3a6d0f.2.azurestaticapps.net">
+Agriculture Hub </a>
+</nav>
+
+<section class="content">
+  <header>
+    {% block header %}{% endblock %}
+  </header>
+  {% for message in get_flashed_messages() %}
+    <div class="flash">{{ message }}</div>
+  {% endfor %}
+  {% block content %}{% endblock %}
+</section>
