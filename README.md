@@ -1,5 +1,7 @@
 # hackathon-submission-template
-The submission is about **Agriculture Hub**     
-![](source/img/agriculturehub.jpg)
+The submission is about **Agriculture Hub**      
+
+
+![AgriHub](source/img/agriculturehub.jpg)
 
 
