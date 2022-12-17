@@ -1,5 +1,7 @@
 # hackathon-submission-template
-The submission is about **Agriculture Hub**      
+The submission is about **Agriculture Hub**  
+
+<img src="https://github.com/ambarishg/agriculturehub-msft-future-tech-2022/blob/main/source/img/agriculturehub.jpg"></img>
 
 The solution has **4** components        
 
