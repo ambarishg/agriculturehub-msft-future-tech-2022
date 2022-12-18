@@ -1,7 +1,7 @@
 # Bees Disease Detection         
 
 ### Deployment Instructions [ Steps ]     
-1.  Create the Custom Vision AI project for training the Cassava Leaf images            
+1.  Create the Custom Vision AI project for training the Bees Leaf images            
 2.  Steps for building the Docker Image       
 3.  Steps for deploying the image as a Container App in Azure        
 4.  Turn the Managed identity [System Assigned] for the deployed Container App        
@@ -22,7 +22,7 @@
 |  app.py | Has the code for running the Flask app |    
 | flaskr / cosmosdbwithoutasync.py |   Has the code for connecting the Container App with **CosmosDB**        |        
 |  flaskr / kvutils.py | Has the code for reading the secrets from the **KeyVault** by the Container App   |          
-|  flaskr / predictions.py | Has the code for getting the **predictions** for the Cassava Leaf by the Container App   |      
+|  flaskr / predictions.py | Has the code for getting the **predictions** for the Bees Leaf by the Container App   |      
 |  flaskr / __init__.py | Has the code for initialization for the **Flask** App |      
 |  flaskr / templates folder | Folder containing the Views of the Container App   |        
 |  flaskr / static folder | Folder containing the CSS file   |     
