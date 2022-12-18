@@ -1,3 +1,14 @@
+The Source Code has 4 components      
+
+1. **agriculturehub** - has the code for the static website which binds the `Paddy Disease detection` , `Cassava Disease detection` , `Bees  Disease detection`         
+
+2. **bees-disease-detection** folder - has the code for the bees-disease-detection   
+
+3. **paddy-disease-detection** folder - has the code for the paddy-disease-detection   
+
+4. **cassava-disease-detection** folder - has the code for the cassava-disease-detection        
+
+
 <hr/>
 Source Code description of Cassava Disease Detection
 <hr/>
