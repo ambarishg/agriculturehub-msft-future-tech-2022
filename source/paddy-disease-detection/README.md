@@ -3,7 +3,7 @@
 ## Problem Statement
 
 
-## Images of the **Paddy Disease Detection Application** 
+
     
 The images are in the `docs\images\ContainerApp\` folder     
 
@@ -26,37 +26,6 @@ The images are in the `docs\images\ContainerApp\` folder
 8. Assign Access Policies for the Container App so that the Container App can acess the secrets in the KeyVault[ `docs\images\ContainerApp\KeyVaultAccess.png` ]                          
 9. Create the secrets in the KeyVault[ `docs\images\KeyVault\KVSecrets.png`]     
 10. Configure Continuous Deployment for the Container App[ `docs\images\KeyVault\KVSecrets.png`]      
-
-
-## Images of the **Azure Container App**          
-The images are in the `docs\images\ContainerApp\` folder     
-
-| Category |  FileName  |  Description |
-|---|---|---|
-| Managed Identity | SystemIdentitySetting.png |    Images of the System identity configuration of the Container App which is turned ON            |   
-| Storage account Access | StorageBlobDataContributorRole.png |     Images of the Storage Account  - Storage Data Blob Contributor Role             |       
-| KeyVault Access | KeyVaultAccess.png |    Key Vault - Access Polices to acess the Key Vault Secrets             |      
-| RevisionManagement - Container App | RevisionManagement.png  |    Revision Management Settings   - Container App         |     
-| Scale - Container App | Scale.png  |    Scale Settings   - Container App         |   
-| Secrets - Container App | Secrets.png  |    Secrets Settings   - Container App. The KeyVault Name is stored as a Secret         |   
-| Continuous Deployment - Container App | CD.png  |    Continuous Deployment Settings   - Container App.          |   
-           
-
-### Images of the Key Vault Secrets  
-| Category |  FileName  |  Description |
-|---|---|---|
-| Key Vault Secrets  | docs\images\KeyVault\KVSecrets.png |    Images of the Key Vault Secrets            |        
-
-### Images of the Storage Account    
-| Category |  FileName  |  Description |
-|---|---|---|
-| Storage Account | docs\images\StorageAccount\StorageAccount.png |    Images of the Storage Account            |        
-
-### Images of the Cosmos DB    
-| Category |  FileName  |  Description |
-|---|---|---|
-| Database and Container | docs\images\CosmosDB\cosmos-db-container.png |    Images of  Database and Container of Cosmos DB            |        
-| Partition | cosmos-db-container.png |    Images of  Cosmos DB container           |        
 
 
 ### Files     
