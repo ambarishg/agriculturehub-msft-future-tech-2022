@@ -1,19 +1,5 @@
 # Paddy Disease Detection         
 
-## Problem Statement
-
-
-
-    
-The images are in the `docs\images\ContainerApp\` folder     
-
-|  FileName  |  Description |
-|---|---|
-| Predict.png  |    Prediction UI - Cassava Application          |     
-| PredictionResult.png  |    Prediction Result - Cassava Application          |     
-| AllPredictions.png  |    All Predictions - Cassava Application          |     
-| FilterPredictions.png  |    Search Predictions by Filename - Cassava Application          |    
- 
 
 ### Deployment Instructions [ Steps ]     
 1.  Create the Custom Vision AI project for training the Cassava Leaf images            
