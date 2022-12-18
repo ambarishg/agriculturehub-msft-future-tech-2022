@@ -9,6 +9,11 @@ In the present solution we have presented **4** components
 3. **Cassava Disease Detection** -  For detecting Cassava Diseases   
 4. **Bees Disease Detection** -  For detecting Bees Diseases       
 
+<hr/>
+
+Please see also the **screenshots.pdf** which has the screenshots of the application as well as the `architecture` of the application      
+
+
 # Architecture of the Disease Classification systems       
 
 The solution would be implemented as web application which is also mobile enabled. The farmers can
