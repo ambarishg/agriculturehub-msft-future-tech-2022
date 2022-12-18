@@ -1,6 +1,6 @@
 # Agriculture Hub                
 
-The vision of **Agriculture Hub**  is to be a 1 stop destination for farmers across India to help them to cultivate better crops , fruits and also to better of their lives.    
+The vision of **Agriculture Hub**  is to be a 1 stop destination for farmers across India to help them to cultivate better crops , fruits and also to better their lives.    
 
 In the present solution we have presented **4** components 
 
