@@ -1,7 +1,9 @@
 # hackathon-submission-template
-The submission is about **Agriculture Hub**  
+The submission is about **Agriculture Hub**          
 
-The solution has **4** components        
+The vision of **Agriculture Hub**  is to be a 1 stop destination for farmers across India to help them to cultivate better crops , fruits and also for the better of their lives.    
+
+In the present solution we have presented **4** components 
 
 1. Static website which links the following 3 components   
 2. **Paddy Disease Detection** -  For detecting Paddy Diseases   
