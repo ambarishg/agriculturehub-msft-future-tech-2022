@@ -22,7 +22,9 @@ access this application anywhere and can upload the images to detect the disease
 7. The integration of Azure Container App with `GitHub Actions` is used for `CD[Continuous
 Deployment]`       
 8. The images are stored in the `Azure Blob Storage `      
-9. The predictions obtained from the `Azure Custom Vision API` are stored in `Cosmos DB`.         
+9. The predictions obtained from the `Azure Custom Vision API` are stored in `Cosmos DB`.   
+
+
 
 <hr/>
 
