@@ -7,7 +7,22 @@ In the present solution we have presented **4** components
 1. Static website which links the following 3 components   
 2. **Paddy Disease Detection** -  For detecting Paddy Diseases   
 3. **Cassava Disease Detection** -  For detecting Cassava Diseases   
-4. **Bees Disease Detection** -  For detecting Bees Diseases        
+4. **Bees Disease Detection** -  For detecting Bees Diseases         
+
+# Architecture of the Disease Classification systems       
+
+The solution would be implemented as web application which is also mobile enabled. The farmers can
+access this application anywhere and can upload the images to detect the disease in the cassava leaves.     
+1. `Flask` is used as UI            
+2. The application is deployed as a `Container App`        
+3. `Azure Custom Vision API` used to detect the  diseases      
+4. `Azure Container Registry` used to store the container images    
+5. The secrets required for the solution are stored in `Azure Key Vault`
+6. The `Azure Container App` uses `Managed Identity`       
+7. The integration of Azure Container App with `GitHub Actions` is used for `CD[Continuous
+Deployment]`       
+8. The images are stored in the `Azure Blob Storage `      
+9. The predictions obtained from the `Azure Custom Vision API` are stored in `Cosmos DB`.         
 
 <hr/>
 
