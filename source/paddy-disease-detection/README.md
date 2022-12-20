@@ -2,7 +2,7 @@
 
 
 ### Deployment Instructions [ Steps ]     
-1.  Create the Custom Vision AI project for training the Cassava Leaf images            
+1.  Create the Custom Vision AI project for training the Paddy images            
 2.  Steps for building the Docker Image [ `docs/01-DockerSteps.md` ]   
 3.  Steps for deploying the image as a Container App in Azure [ `docs/2-AzureContainerAppsSteps.md` ]  
 4.  Turn the Managed identity [System Assigned] for the deployed Container App             

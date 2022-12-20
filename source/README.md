@@ -106,7 +106,7 @@ Source Code description of Paddy Disease Detection
 
 
 ### Deployment Instructions [ Steps ]     
-1.  Create the Custom Vision AI project for training the Cassava Leaf images            
+1.  Create the Custom Vision AI project for training the Paddy images            
 2.  Steps for building the Docker Image       
 3.  Steps for deploying the image as a Container App in Azure        
 4.  Turn the Managed identity [System Assigned] for the deployed Container App        
@@ -139,7 +139,7 @@ Source Code description of Bees Disease Detection
 <hr/>
 
 ### Deployment Instructions [ Steps ]     
-1.  Create the Custom Vision AI project for training the Cassava Leaf images            
+1.  Create the Custom Vision AI project for training the Bees images            
 2.  Steps for building the Docker Image       
 3.  Steps for deploying the image as a Container App in Azure        
 4.  Turn the Managed identity [System Assigned] for the deployed Container App        
