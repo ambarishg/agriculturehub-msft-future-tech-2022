@@ -24,12 +24,14 @@ bp = Blueprint('predictions', __name__)
 # It will display the form to upload an image
 # and then display the results of the prediction
 # on the same page
-# The form is a POST request
-# The results are a GET request 
-# The results are displayed in a table
+
 # This route also calls the Azure Blob Storage to upload the image
 # and the Azure Custom Vision Service to get the prediction results
 # The results are also stored in Azure Cosmos DB
+
+# The form is a POST request
+# The results are a GET request 
+# The results are displayed in a table
 
 @bp.route('/', methods=('GET', 'POST'))
 def predict():
