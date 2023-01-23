@@ -2,11 +2,11 @@ import os
 from azure.identity import ManagedIdentityCredential
 from azure.keyvault.secrets import SecretClient
 
-
+# Get the keyvault name from the environment variable
 keyVaultName = os.environ["kvname"] #""
 KVUri = f"https://{keyVaultName}.vault.azure.net"
 
-
+# Get the credentials from the environment
 credential = ManagedIdentityCredential()
 client = SecretClient(vault_url=KVUri, credential=credential)
 
