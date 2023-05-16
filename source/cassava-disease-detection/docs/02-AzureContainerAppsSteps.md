@@ -52,7 +52,7 @@ az containerapp create \
 --registry-password $password  \
 --target-port 5000 \
 --ingress 'external' \
---cpu 1.0 --memory 2.0Gi \
+--cpu 2.0 --memory 4.0Gi \
 --query configuration.ingress.fqdn \
 --secrets "kvname-secret=$KEY_VAULT_NAME" \
 --env-vars "kvname=secretref:kvname-secret"
